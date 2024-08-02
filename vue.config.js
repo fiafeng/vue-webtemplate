@@ -12,6 +12,13 @@ module.exports = defineConfig({
           '^/api': ''
         }
       },
-    }
+      '/dev-api': { // url识别符
+        target: 'http://localhost:7000/', // server地址
+        changOrigin: true, // 允许跨域
+        pathRewrite: {
+          '^/dev-api': ''
+        }
+      },
+    },
   }
 })

@@ -15,10 +15,12 @@ import './assets/css/tocbot.css'
 import './assets/css/color.css'
 import './assets/css/markdown-highlight.css'
 // import './assets/css/font-awesome.min.css'
+import Pagination from "@/components/Pagination/index.vue"
 
 Vue.use(ElementUI);
 
 // Vue.use(Toast)
+Vue.use(Pagination)
 
 Vue.config.productionTip = false
 
